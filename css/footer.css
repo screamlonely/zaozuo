@@ -1,0 +1,128 @@
+*{margin:0;padding:0;}
+.newfooter{
+	width:100%;height:541px;
+	background:#1b1b1b;
+}
+.content{
+	width:1300px;height:600px;
+	margin:0 auto;
+	padding:15px;
+}
+.left,.center,.right{float:left;}
+.left{
+	width:22%;height:227px;
+	margin-left:-100px;
+
+}
+.left a{
+	text-decoration:none;
+	color:#fff;
+}
+.left h2{
+	display:inline-block;
+	font-size:32px;
+	margin-top:50px;
+
+}
+.d1,.d2{
+	content:"";
+	float:left;
+	width:1px;
+	margin-top:62px;
+	height:188px;
+	background:#a0a0a0;
+}
+.d1{margin-left:35px;}
+.d2{
+	margin-top:12px;
+	margin-left:130px;
+}
+.center{
+	width:483.21px;height:221px;
+	margin-left:115px;
+}
+.center ul{float:left;}
+.center ul li{
+	list-style:none;
+	margin-left:40px;
+	padding-bottom:10px;
+
+}
+.center ul li a{
+	text-decoration:none;
+	color:#d2d2d2;
+	font-size:12px;
+}
+.center h5 a{
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #a0a0a0;
+} 
+.about,.serve,.business{
+	color:#a0a0a0;
+	margin-bottom:10px;
+	border-bottom:1px solid #a0a0a0;
+	padding-bottom:10px;
+	line-height:40px;
+	
+}
+.center_left,.center_center,.center_right{margin-top:50px;}
+.center_right{padding-left:15px;}
+
+.right{
+	width:227.84px;height:189px;
+	color:#fff;
+	margin-left:165px;
+}
+.time{
+	list-style:none;
+	margin-top:50px;
+}
+.time li{float:left;}
+.phone{font-size:20px;}
+.ontime{
+	font-size:13px;
+}
+.online{
+	width:82px;height:30px;	}
+.view{
+	display:block;
+	text-decoration:none;
+	width:90px;height:23px;
+	border:1px solid #fff;
+	border-radius:15px;
+	color:#fff;
+	text-align:center;
+	line-height:23px;
+	margin-top:90px;
+}
+.sole{
+	display:block;
+	text-decoration:none;
+	width:300px;height:40px;
+	border:1px solid #fff;
+	text-align:center;
+	line-height:40px;
+	color:#000;
+	margin-top:35px;
+	background:#fff;
+}
+.sole:hover{
+	background:#000;
+	color:#fff;}
+.line{
+	width:1400px;
+	height:287px;
+	border-bottom:1px solid #a0a0a0;
+	padding:5px;
+	margin-left:-110px;
+}
+.copy,.ICP,.brand{
+	font-size:12px;
+	color:#d2d2d2;
+	text-align:center;
+}
+.copy{margin-top:20px;}
+.ICP{margin-top:10px;}
+.brand{margin-top:10px;}
+.content a:hover{color:#fff;}

@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+#parent{
+	height:36px;background:#313131;
+}
+#parent ul li{
+ list-style:none;
+ float:right;
+}
+.active{
+	border-bottom:2px solid #000;
+}
+#parent ul li a{
+ text-decoration:none;
+ font-size:12px;
+ color:#fff;
+ cursor:pointer;
+ line-height:36px;
+ margin-right:50px;
+}
+.title h1{
+ font-size:45px;
+ text-align:center;
+}
+.navgation{
+	width:100%;height:150px;
+	position:absolute;
+}
+.navgation .menu{
+	width:50%;
+	margin:0 auto;}
+.navgation .menu li{
+  list-style:none;
+  float:left;
+  cursor:pointer;
+  margin:0 auto;
+  padding:24px;
+}
+.navgation .menu li a{
+ text-decoration:none;
+ color:#313131;
+ font-size:14px;
+ font-weight:bold;
+}
+/*二级菜单*/
+.second-menu {
+	position:absolute;
+	z-index:2;
+}
+.second-menu img{
+	width:50px;height:50px;
+}
+.second-menu li p{
+	font-size:14px;
+	color:#6f6f6f;
+	font-weight:400;
+	margin:0 auto;
+}
+.navgation .menu li a:hover{
+	border-bottom:2px solid #000;
+}
+.navgation .menu .second-menu {
+	display:none;
+}
+.navgation .menu li:hover .second-menu{
+	display:block;
+	background:#f6f6f6;
+}
+.second-menu img:hover{
+    transform:scale(1.1);
+}

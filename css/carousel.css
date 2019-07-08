@@ -1,0 +1,15 @@
+.carousel-control-prev,.carousel-control-next{
+	width:4%;height:20%;
+    top:40%;
+    background-color: #aaa;
+    border-radius: 0.25rem;
+}
+.carousel-indicators li{
+    width:22px;
+    height:4px;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-left:5px;
+    background-color: #d2d2d2;
+}
+.carousel-indicators .active {background:#000;}
